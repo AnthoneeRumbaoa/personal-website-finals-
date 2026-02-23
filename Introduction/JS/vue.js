@@ -2,15 +2,15 @@ const app = Vue.createApp({
   data() {
     return {
       TheArchive: [
-        '1.jpg',
-        '2.jpg',
-        '3.jpg',
-        '4.jpg',
-        '5.jpg',
-        '6.jpg',
-        '7.jpg',
-        '8.jpg',
-        '9.jpg'
+        'Introduction/1.jpg',
+        'Introduction/2.jpg',
+        'Introduction/3.jpg',
+        'Introduction/4.jpg',
+        'Introduction/5.jpg',
+        'Introduction/6.jpg',
+        'Introduction/7.jpg',
+        'Introduction/8.jpg',
+        'Introduction/9.jpg'
       ]
     }
   }
