@@ -1,0 +1,50 @@
+.photo-scroller {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #333 #000;
+}
+
+.photo-scroller::-webkit-scrollbar {
+    height: 8px;
+}
+.photo-scroller::-webkit-scrollbar-track {
+    background: #000;
+}
+.photo-scroller::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.photo-item {
+    min-width: 350px; 
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    border: 1px solid #333;
+    transition: transform 0.3s ease;
+}
+
+.photo-item:hover {
+    transform: scale(0.98);
+    border-color: #fff;
+    cursor: pointer;
+}
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    .photo-item {
+        min-width: 280px;
+        height: 400px;
+    }
+}
