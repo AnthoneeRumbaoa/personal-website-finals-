@@ -14,8 +14,7 @@ const app = Vue.createApp({
       editingId: null,
       editForm: { message: '' },
       
-      // REPLACE THIS URL WITH YOUR LIVE RENDER URL!
-      apiUrl: 'https://personal-website-finals-jezt.onrender.com' 
+      apiUrl: 'https://personal-website-finals-jezt.onrender.com/api/comments' 
     }
   },
   methods: {
